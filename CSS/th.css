@@ -1,0 +1,133 @@
+body{
+    background-color: rgba(157, 224, 201, 0.64);
+    /*background-position: top right;*/
+}
+nav,footer{
+    clear: both;
+    color: #ffffff;
+    background-color: #c09fe2;
+    height: 30px;
+}
+nav ul{
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav li{
+    display: inline;
+    margin-right:40px;
+}
+nav li a{
+    color: #ffffff;
+}
+nav li a:hover, nav li a.current{
+    color: #d40d52;
+}
+h1 {
+    text-align: center;
+    /*display: inline-block;*/
+    font: bold 4.5em/1.5 Bebas, sans-serif;
+    color: #5CA17C; /*non-webkit fallback*/
+    font-size: 48px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #26BDA6, #ff65a3, #DED37E, #3526bd);
+    background-size: auto 80%;
+    transition: background-position 0.5s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 200px;
+    background-position: 0 100%;
+}
+h1:hover {
+    text-align: center;
+    background-position: 0 0;
+    cursor: pointer;
+}
+h2{
+    color: #db5d3f;
+}
+video{
+    width: 600px;
+    right: 400px;
+    height: 500px;
+}
+.container
+{
+    width: 1500px;
+    overflow: auto;
+
+}
+#CHR{
+    width: 700px;
+    background-color: #efefef;
+    height: 750px;
+    float: left;
+}
+#NC{
+    width: 800px;
+    background-color: #eed2b9;
+    height: 750px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+#CHR figure{
+    background-color: #eeeeee rgba(76, 68, 0, 0.13);
+    font-size: 40%;
+    border: 1px solid #eeeeee;
+    display: inline-block;
+
+}
+#NC figure{
+    background-color: #eeeeee rgba(76, 68, 0, 0.13);
+    font-size: 40%;
+    border: 1px solid #eeeeee;
+    display: inline-block;
+
+}
+#NC h2{
+    color: #45801c;
+}
+#NC p{
+    text-indent: 20px;
+    font-size: 20px;
+}
+#CHR p{
+    text-indent: 20px;
+    font-size: 20px;
+}
+#content2{
+    width: 1500px;
+    overflow: auto;
+}
+#LH{
+    width: 700px;
+    background-color: #eed2b9;
+    height: 750px;
+    float: left;
+}
+#LH p{
+    text-indent: 20px;
+    color: darkblue;
+    font-size: 20px;
+}
+#LH h2{
+    color: #45801c;
+}
+#SS{
+    width: 800px;
+    background-color: #efefef;
+    height: 750px;
+    float: right;
+
+}
+#SS p{
+    font-size: 20px;
+    color: #de6581;
+    text-indent: 20px;
+}
+figcaption{
+    font-size: small;
+    text-align:center;
+
+}
